@@ -13,13 +13,16 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
+[sources]
+GMRF = {url = "https://github.com/jojal5/GMRF.jl"}
+
 [compat]
 Distributions = "0.25"
 Extremes = "1.0.5"
 MambaLite = "0.1.3"
 ProgressMeter = "^1.13"
 SparseArrays = "^1.12"
-julia = "1"
+julia = "1.12"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
